@@ -1,0 +1,12 @@
+[package]
+name = "wombscape"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+anyhow = "1"
+# you'll use these when you implement the bodies later
+cpal = "0.15"   # live audio
+hound = "3.5"   # read/write WAV
+rand = "0.8"    # seeds/jitter (optional for now)
