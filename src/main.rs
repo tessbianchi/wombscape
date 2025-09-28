@@ -67,7 +67,7 @@ fn main() -> anyhow::Result<()> {
     let seed = 42u64;
 
     // Bed levels: tweak to taste (dBFS)
-    let maternal_hr_bpm = 60.0;
+    let maternal_hr_bpm = 110.0;
     let heart_level_db = -15.0;
     let noise_level_db = -36.0;
 
